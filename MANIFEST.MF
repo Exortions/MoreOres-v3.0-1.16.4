@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: forge-1.16.4
+Implementation-Version: 1.0
+Specification-Vendor: examplemodsareus
+Specification-Title: examplemod
+Implementation-Timestamp: 2020-11-04T09:39:11+0100
+Specification-Version: 1
+Implementation-Vendor: examplemodsareus
+

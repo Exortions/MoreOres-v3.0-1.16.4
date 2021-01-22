@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RR ",
+        " S ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "moreores:ruby"
+        },
+        "S":
+        {
+        	"item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "moreores:ruby_hoe",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="All Rights Reserved"
+issueTrackerURL="http://my.issue.tracker/"
+
+[[mods]]
+modId="moreores"
+version="3.0"
+displayName="More Ores"
+updateJSONURL="http://myurl.me/"
+displayURL="http://itchss.github.io/"
+logoFile="moreores.png"
+credits="Myself hahaha"
+authors="Itchs"
+description='''
+Adds more ores to Minecraft,
+and intends to add to the survival experience.
+You can also use the ores combined with special items to make
+magic wands, staffs, etc.
+'''	

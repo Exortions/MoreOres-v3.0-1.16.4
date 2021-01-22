@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CCC",
+        "CSC",
+        "CCC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "moreores:copper_alloy"
+        },
+        "S":
+        {
+            "item": "minecraft:cooked_beef"
+        }
+    },
+    
+    "result":
+    {
+        "item": "moreores:golden_steak",
+        "count": 1
+    }
+}

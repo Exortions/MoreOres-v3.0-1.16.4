@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " R ",
+        " R ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "moreores:ruby"
+        },
+        "S":
+        {
+        	"item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "moreores:ruby_sword",
+        "count": 1
+    }
+}

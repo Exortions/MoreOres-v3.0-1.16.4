@@ -1,0 +1,38 @@
+{
+	
+	// Materials
+	"item.moreores.ruby": "Ruby",
+	"item.moreores.obsidian_ingot": "Obsidian Ingot",
+	"item.moreores.sapphire": "Sapphire",
+	"item.moreores.copper_ingot": "Copper Ingot",
+	"item.moreores.copper_alloy": "Copper Alloy",
+	
+	// Tools
+	"item.moreores.ruby_sword": "Ruby Sword",
+	"item.moreores.ruby_pickaxe": "Ruby Pickaxe",
+	"item.moreores.ruby_axe": "Ruby Axe",
+	"item.moreores.ruby_shovel": "Ruby Shovel",
+	"item.moreores.ruby_hoe": "Ruby Hoe",
+	
+	// Armor
+	"item.moreores.ruby_helmet": "Ruby Helmet",
+	"item.moreores.ruby_chestplate": "Ruby Chestplate",
+	"item.moreores.ruby_leggings": "Ruby Leggings",
+	"item.moreores.ruby_boots": "Ruby Boots",
+	
+	// Items
+	"item.moreores.lightning_rod": "Lightning Rod",
+	"item.moreores.necromancers_staff": "Necromancer's Staff",
+	
+	// Foods
+	"item.moreores.golden_steak": "Golden Steak",
+	
+	// Blocks
+	"block.moreores.ruby_block": "Block of Ruby",
+	"block.moreores.ruby_ore": "Ruby Ore",
+	
+	// Other
+	"itemGroup.moreorestab": "More Ores",
+	"moreores.other.information.hold_shift": "\u00A70[\u00A74Shift\u00A70]"
+	
+}
