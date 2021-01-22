@@ -1,5 +1,6 @@
-
-
+===================
+1/22/2021 1:08 PM
+Fully added obsidian armor, tools, and recipes.
 ===================
 1/22/2021 11:30 AM
 Finished ruby armor, tools, oregen, and recipes.
