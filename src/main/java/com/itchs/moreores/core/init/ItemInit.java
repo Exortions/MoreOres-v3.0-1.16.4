@@ -73,9 +73,10 @@ public class ItemInit {
 	public static final RegistryObject<LightningRod> LIGHTNING_ROD = ITEMS.register("lightning_rod", () -> new LightningRod(new Item.Properties().group(MoreOres.MOREORES_GROUP).maxStackSize(1).maxDamage(1000)));
 	public static final RegistryObject<NecromancersStaff> NECROMANCERS_ROD = ITEMS.register("necromancers_staff", () -> new NecromancersStaff(new Item.Properties().group(MoreOres.MOREORES_GROUP).maxStackSize(1).maxDamage(1000)));
 	
-	// Blocks
+	// BlockItems
 	public static final RegistryObject<BlockItem> RUBY_BLOCK = ITEMS.register("ruby_block", () -> new BlockItem(BlockInit.RUBY_BLOCK.get(), new Item.Properties().group(MoreOres.MOREORES_GROUP)));
 	public static final RegistryObject<BlockItem> RUBY_ORE = ITEMS.register("ruby_ore", () -> new BlockItem(BlockInit.RUBY_ORE.get(), new Item.Properties().group(MoreOres.MOREORES_GROUP)));
+	public static final RegistryObject<BlockItem> SAPPHIRE_ORE = ITEMS.register("sapphire_ore", () -> new BlockItem(BlockInit.SAPPHIRE_ORE.get(), new Item.Properties().group(MoreOres.MOREORES_GROUP)));
 	
 	// Food
 	public static final RegistryObject<Item> GOLDEN_STEAK = ITEMS.register("golden_steak", () -> new Item(new Item.Properties().group(MoreOres.MOREORES_GROUP).food(new Food.Builder().effect(() -> new EffectInstance(Effects.ABSORPTION, 12000, 3), 1.0f).effect(() -> new EffectInstance(Effects.REGENERATION, 200, 2), 1.0f).meat().hunger(8).saturation(1.0f).setAlwaysEdible().build())));
