@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "COC",
+        "OEO",
+        "COC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:crying_obsidian"
+        },
+        "O":
+        {
+        	"item": "minecraft:obsidian"
+        },
+        "E":
+        {
+        	"item": "minecraft:ender_eye"
+        }
+    },
+    
+    "result":
+    {
+        "item": "moreores:obsidian_ingot",
+        "count": 4
+    }
+}

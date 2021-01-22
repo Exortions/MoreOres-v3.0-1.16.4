@@ -14,11 +14,22 @@
 	"item.moreores.ruby_shovel": "Ruby Shovel",
 	"item.moreores.ruby_hoe": "Ruby Hoe",
 	
+	"item.moreores.obsidian_sword": "Obsidian Sword",
+	"item.moreores.obsidian_pickaxe": "Obsidian Pickaxe",
+	"item.moreores.obsidian_axe": "Obsidian Axe",
+	"item.moreores.obsidian_shovel": "Obsidian Shovel",
+	"item.moreores.obsidian_hoe": "Obsidian Hoe",
+	
 	// Armor
 	"item.moreores.ruby_helmet": "Ruby Helmet",
 	"item.moreores.ruby_chestplate": "Ruby Chestplate",
 	"item.moreores.ruby_leggings": "Ruby Leggings",
 	"item.moreores.ruby_boots": "Ruby Boots",
+	
+	"item.moreores.obsidian_helmet": "Obsidian Helmet",
+	"item.moreores.obsidian_chestplate": "Obsidian Chestplate",
+	"item.moreores.obsidian_leggings": "Obsidian Leggings",
+	"item.moreores.obsidian_boots": "Obsidian Boots",
 	
 	// Items
 	"item.moreores.lightning_rod": "Lightning Rod",

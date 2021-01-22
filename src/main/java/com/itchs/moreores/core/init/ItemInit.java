@@ -31,28 +31,43 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemInit {
-
+		
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS,MoreOres.MOD_ID);
-	
+		
 	// Items
 	public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", () -> new Item(new Item.Properties().group(MoreOres.MOREORES_GROUP)));
 	public static final RegistryObject<Item> OBSIDIAN_INGOT = ITEMS.register("obsidian_ingot", () -> new Item(new Item.Properties().group(MoreOres.MOREORES_GROUP)));
 	public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", () -> new Item(new Item.Properties().group(MoreOres.MOREORES_GROUP)));
 	public static final RegistryObject<Item> COPPER = ITEMS.register("copper_ingot", () -> new Item(new Item.Properties().group(MoreOres.MOREORES_GROUP)));
 	public static final RegistryObject<Item> COPPER_ALLOY = ITEMS.register("copper_alloy", () -> new Item(new Item.Properties().group(MoreOres.MOREORES_GROUP)));
-	
+		
 	// Tools
-	public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword", () -> new SwordItem(ModItemTier.RUBY, 4, -2.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
-	public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () -> new PickaxeItem(ModItemTier.RUBY, 1, -3.0f, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
-	public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe", () -> new AxeItem(ModItemTier.RUBY, 5.5F, -3.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
-	public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () -> new ShovelItem(ModItemTier.RUBY, 1.75F, -3.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
-	public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe", () -> new HoeItem(ModItemTier.RUBY, -4, 0.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
-	
+		// Ruby
+		public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword", () -> new SwordItem(ModItemTier.RUBY, 4, -2.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () -> new PickaxeItem(ModItemTier.RUBY, 1, -3.0f, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe", () -> new AxeItem(ModItemTier.RUBY, 5.5F, -3.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () -> new ShovelItem(ModItemTier.RUBY, 1.75F, -3.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe", () -> new HoeItem(ModItemTier.RUBY, -4, 0.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		
+		// Obsidian
+		public static final RegistryObject<Item> OBSIDIAN_SWORD = ITEMS.register("obsidian_sword", () -> new SwordItem(ModItemTier.OBSIDIAN, 5, -2.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> OBSIDIAN_PICKAXE = ITEMS.register("obsidian_pickaxe", () -> new PickaxeItem(ModItemTier.OBSIDIAN, 1, -3.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> OBSIDIAN_AXE = ITEMS.register("obsidian_axe", () -> new AxeItem(ModItemTier.OBSIDIAN, 6.5F, -3.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> OBSIDIAN_SHOVEL = ITEMS.register("obsidian_shovel", () -> new ShovelItem(ModItemTier.OBSIDIAN, 1.75F, -3.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe", () -> new HoeItem(ModItemTier.OBSIDIAN, -4, 0.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		
 	// Armor
-	public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.HEAD, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
-	public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.CHEST, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
-	public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings", () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.LEGS, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
-	public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots", () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.FEET, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		// Ruby
+		public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.HEAD, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.CHEST, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings", () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.LEGS, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots", () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.FEET, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		
+		// Obsidian
+		public static final RegistryObject<Item> OBSIDIAN_HELMET = ITEMS.register("obsidian_helmet", () -> new ArmorItem(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.HEAD, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> OBSIDIAN_CHESTPLATE = ITEMS.register("obsidian_chestplate", () -> new ArmorItem(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.CHEST, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> OBSIDIAN_LEGGINGS = ITEMS.register("obsidian_leggings", () -> new ArmorItem(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.LEGS, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> OBSIDIAN_BOOTS = ITEMS.register("obsidian_boots", () -> new ArmorItem(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.FEET, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
 	
 	// Advanced Items
 	public static final RegistryObject<LightningRod> LIGHTNING_ROD = ITEMS.register("lightning_rod", () -> new LightningRod(new Item.Properties().group(MoreOres.MOREORES_GROUP).maxStackSize(1).maxDamage(1000)));
@@ -71,7 +86,11 @@ public class ItemInit {
 	public enum ModItemTier implements IItemTier {
 		   RUBY(4, 2031, 9.0F, 4.0F, 15, () -> {
 		      return Ingredient.fromItems(ItemInit.RUBY.get());
+		   }),
+		   OBSIDIAN(5, 3129, 11.0F, 4.5F, 9, () -> {
+			   return Ingredient.fromItems(ItemInit.OBSIDIAN_INGOT.get());
 		   });
+		
 
 		   private final int harvestLevel;
 		   private final int maxUses;
@@ -118,6 +137,9 @@ public class ItemInit {
 	public enum ModArmorMaterial implements IArmorMaterial {
 		   RUBY("moreores:ruby", 38, new int[]{4, 7, 9, 4}, 16, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.5F, 0.0F, () -> {
 			   return Ingredient.fromItems(ItemInit.RUBY.get());
+		   }),
+		   OBSIDIAN("moreores:obsidian", 43, new int[] {7, 10, 12, 6}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 4.5F, 0.0F, () -> {
+			   return Ingredient.fromItems(ItemInit.OBSIDIAN_INGOT.get());
 		   });
 
 		   private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};

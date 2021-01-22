@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "OO ",
+        " S ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "moreores:obsidian_ingot"
+        },
+        "S":
+        {
+        	"item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "moreores:obsidian_hoe",
+        "count": 1
+    }
+}

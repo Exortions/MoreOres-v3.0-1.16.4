@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " O ",
+        " O ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "moreores:obsidian_ingot"
+        },
+        "S":
+        {
+        	"item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "moreores:obsidian_sword",
+        "count": 1
+    }
+}
