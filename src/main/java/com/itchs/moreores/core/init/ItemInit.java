@@ -5,7 +5,6 @@ import java.util.function.Supplier;
 import com.itchs.moreores.MoreOres;
 import com.itchs.moreores.common.items.LightningRod;
 import com.itchs.moreores.common.items.NecromancersStaff;
-
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.AxeItem;
@@ -56,6 +55,13 @@ public class ItemInit {
 		public static final RegistryObject<Item> OBSIDIAN_SHOVEL = ITEMS.register("obsidian_shovel", () -> new ShovelItem(ModItemTier.OBSIDIAN, 1.75F, -3.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
 		public static final RegistryObject<Item> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe", () -> new HoeItem(ModItemTier.OBSIDIAN, -4, 0.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
 		
+		// Sapphire
+		public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () -> new SwordItem(ModItemTier.SAPPHIRE, 4, -2.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", () -> new PickaxeItem(ModItemTier.SAPPHIRE, 1, -3.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", () -> new AxeItem(ModItemTier.SAPPHIRE, 6.0F, -3.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", () -> new ShovelItem(ModItemTier.SAPPHIRE, 1.75F, -3.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", () -> new AxeItem(ModItemTier.SAPPHIRE, -4, -0.0F, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		
 	// Armor
 		// Ruby
 		public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.HEAD, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
@@ -68,15 +74,24 @@ public class ItemInit {
 		public static final RegistryObject<Item> OBSIDIAN_CHESTPLATE = ITEMS.register("obsidian_chestplate", () -> new ArmorItem(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.CHEST, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
 		public static final RegistryObject<Item> OBSIDIAN_LEGGINGS = ITEMS.register("obsidian_leggings", () -> new ArmorItem(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.LEGS, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
 		public static final RegistryObject<Item> OBSIDIAN_BOOTS = ITEMS.register("obsidian_boots", () -> new ArmorItem(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.FEET, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		
+		// Sapphire
+		public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet", () -> new ArmorItem(ModArmorMaterial.SAPPHIRE, EquipmentSlotType.HEAD, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate", () -> new ArmorItem(ModArmorMaterial.SAPPHIRE, EquipmentSlotType.CHEST, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings", () -> new ArmorItem(ModArmorMaterial.SAPPHIRE, EquipmentSlotType.LEGS, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
+		public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots", () -> new ArmorItem(ModArmorMaterial.SAPPHIRE, EquipmentSlotType.FEET, (new Item.Properties()).group(MoreOres.MOREORES_GROUP)));
 	
 	// Advanced Items
 	public static final RegistryObject<LightningRod> LIGHTNING_ROD = ITEMS.register("lightning_rod", () -> new LightningRod(new Item.Properties().group(MoreOres.MOREORES_GROUP).maxStackSize(1).maxDamage(1000)));
 	public static final RegistryObject<NecromancersStaff> NECROMANCERS_ROD = ITEMS.register("necromancers_staff", () -> new NecromancersStaff(new Item.Properties().group(MoreOres.MOREORES_GROUP).maxStackSize(1).maxDamage(1000)));
+	//public static final RegistryObject<OreBackpack> ORE_BACKPACK = ITEMS.register("ore_backpack", () -> new OreBackpack(new Item.Properties().group(MoreOres.MOREORES_GROUP).maxStackSize(1)));
 	
 	// BlockItems
 	public static final RegistryObject<BlockItem> RUBY_BLOCK = ITEMS.register("ruby_block", () -> new BlockItem(BlockInit.RUBY_BLOCK.get(), new Item.Properties().group(MoreOres.MOREORES_GROUP)));
 	public static final RegistryObject<BlockItem> RUBY_ORE = ITEMS.register("ruby_ore", () -> new BlockItem(BlockInit.RUBY_ORE.get(), new Item.Properties().group(MoreOres.MOREORES_GROUP)));
 	public static final RegistryObject<BlockItem> SAPPHIRE_ORE = ITEMS.register("sapphire_ore", () -> new BlockItem(BlockInit.SAPPHIRE_ORE.get(), new Item.Properties().group(MoreOres.MOREORES_GROUP)));
+	public static final RegistryObject<BlockItem> QUARRY = ITEMS.register("quarry", () -> new BlockItem(BlockInit.QUARRY.get(), new Item.Properties().group(MoreOres.MOREORES_GROUP)));
+	public static final RegistryObject<BlockItem> ORE_BACKPACK = ITEMS.register("ore_backpack", () -> new BlockItem(BlockInit.ORE_BACKPACK.get(), new Item.Properties().group(MoreOres.MOREORES_GROUP)));
 	
 	// Food
 	public static final RegistryObject<Item> GOLDEN_STEAK = ITEMS.register("golden_steak", () -> new Item(new Item.Properties().group(MoreOres.MOREORES_GROUP).food(new Food.Builder().effect(() -> new EffectInstance(Effects.ABSORPTION, 12000, 3), 1.0f).effect(() -> new EffectInstance(Effects.REGENERATION, 200, 2), 1.0f).meat().hunger(8).saturation(1.0f).setAlwaysEdible().build())));
@@ -90,6 +105,9 @@ public class ItemInit {
 		   }),
 		   OBSIDIAN(5, 3129, 11.0F, 4.5F, 9, () -> {
 			   return Ingredient.fromItems(ItemInit.OBSIDIAN_INGOT.get());
+		   }),
+		   SAPPHIRE(4, 2043, 10.0F, 4.3F, 19, () -> {
+			   return Ingredient.fromItems(ItemInit.SAPPHIRE.get());
 		   });
 		
 
@@ -141,6 +159,9 @@ public class ItemInit {
 		   }),
 		   OBSIDIAN("moreores:obsidian", 43, new int[] {7, 10, 12, 6}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 4.5F, 0.0F, () -> {
 			   return Ingredient.fromItems(ItemInit.OBSIDIAN_INGOT.get());
+		   }),
+		   SAPPHIRE("moreores:sapphire", 40, new int[] {5,8,10,5}, 19, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 4.0F, 0.0F, () -> {
+			   return Ingredient.fromItems(ItemInit.SAPPHIRE.get());
 		   });
 
 		   private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};

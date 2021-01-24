@@ -1,0 +1,21 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "moreores:blocks/quarry/normal/front"
+    },
+    "variants": {
+        "facing": {
+            "east": {"y": 90},
+            "south": {"y": 180},
+            "west": {"y": 270},
+            "north": {"y": 0}
+        },
+        "connected_up": {"false": {"textures": {"up": "moreores:blocks/quarry/normal/top"}}, "true": {"textures": {"up": "moreores:blocks/quarry/normal/top"}}},
+        "connected_down": {"false": {"textures": {"down": "moreores:blocks/quarry/normal/bottom"}}, "true": {"textures": {"down": "moreores:blocks/quarry/normal/bottom"}}},
+        "connected_east": {"false": {"textures": {"east": "moreores:blocks/quarry/normal/side"}}, "true": {"textures": {"east": "moreores:blocks/quarry/normal/side"}}},
+        "connected_west": {"false": {"textures": {"west": "moreores:blocks/quarry/normal/side"}}, "true": {"textures": {"west": "moreores:blocks/quarry/normal/side"}}},
+        "connected_north": {"false": {"textures": {"north": "moreores:blocks/quarry/normal/front"}}, "true": {"textures": {"north": "moreores:blocks/quarry/normal/front"}}},
+        "connected_south": {"false": {"textures": {"south": "moreores:blocks/quarry/normal/back"}}, "true": {"textures": {"south": "moreores:blocks/quarry/normal/back"}}},
+        "inventory": [{}]
+    }
+}

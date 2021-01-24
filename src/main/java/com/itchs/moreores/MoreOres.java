@@ -13,6 +13,8 @@ import org.apache.logging.log4j.Logger;
 
 import com.itchs.moreores.core.init.BlockInit;
 import com.itchs.moreores.core.init.ItemInit;
+import com.itchs.moreores.core.init.ModContainerTypes;
+import com.itchs.moreores.core.init.ModTileEntityTypes;
 import com.itchs.moreores.world.OreGeneration;
 
 @Mod(MoreOres.MOD_ID)
@@ -28,7 +30,8 @@ public class MoreOres
         
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
-        
+        ModTileEntityTypes.TILE_ENTITY_TYPES.register(bus);
+        ModContainerTypes.CONTAINER_TYPES.register(bus);
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
 
         MinecraftForge.EVENT_BUS.register(this);

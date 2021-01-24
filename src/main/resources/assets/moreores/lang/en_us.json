@@ -20,6 +20,12 @@
 	"item.moreores.obsidian_shovel": "Obsidian Shovel",
 	"item.moreores.obsidian_hoe": "Obsidian Hoe",
 	
+	"item.moreores.sapphire_sword": "Sapphire Sword",
+	"item.moreores.sapphire_pickaxe": "Sapphire Pickaxe",
+	"item.moreores.sapphire_axe": "Sapphire Axe",
+	"item.moreores.sapphire_shovel": "Sapphire Shovel",
+	"item.moreores.sapphire_hoe": "Sapphire Hoe",
+	
 	// Armor
 	"item.moreores.ruby_helmet": "Ruby Helmet",
 	"item.moreores.ruby_chestplate": "Ruby Chestplate",
@@ -31,6 +37,11 @@
 	"item.moreores.obsidian_leggings": "Obsidian Leggings",
 	"item.moreores.obsidian_boots": "Obsidian Boots",
 	
+	"item.moreores.sapphire_helmet": "Sapphire Helmet",
+	"item.moreores.sapphire_chestplate": "Sapphire Chestplate",
+	"item.moreores.sapphire_leggings": "Sapphire Leggings",
+	"item.moreores.sapphire_boots": "Sapphire Boots",
+	
 	// Items
 	"item.moreores.lightning_rod": "Lightning Rod",
 	"item.moreores.necromancers_staff": "Necromancer's Staff",
@@ -41,9 +52,13 @@
 	// Blocks
 	"block.moreores.ruby_block": "Block of Ruby",
 	"block.moreores.ruby_ore": "Ruby Ore",
+	"block.moreores.sapphire_ore": "Sapphire Ore",
+	"block.moreores.quarry": "Quarry",
+	"block.moreores.ore_backpack": "Ore Backpack",
 	
 	// Other
 	"itemGroup.moreorestab": "More Ores",
-	"moreores.other.information.hold_shift": "\u00A70[\u00A74Shift\u00A70]"
+	"moreores.other.information.hold_shift": "\u00A70[\u00A74Shift\u00A70]",
+	"container.ore_backpack.name": "Ore Backpack"
 	
 }

@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "moreores:blocks/quarry/normal/side",
+        "down": "moreores:blocks/quarry/normal/bottom",
+        "up": "moreores:blocks/quarry/normal/top",
+        "north": "moreores:blocks/quarry/normal/front",
+        "east": "moreores:blocks/quarry/normal/side",
+        "south": "moreores:blocks/quarry/normal/back",
+        "west": "moreores:blocks/quarry/normal/side"
+    }
+}
