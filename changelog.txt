@@ -1,4 +1,10 @@
 ===================
+1/23/2021 9:18 PM
+Added a quary to the game which mines a 3x3 hole gradually beneath it. (Will add tileentity container for fuel later) 
+Added Ore Backpack which contains container. It is currently in block form, but will make it an item later. Would also like to make mined ores automatically go in there.
+Added textures, lang, and models to Sapphire.
+Also added loot tables to most blocks.
+===================
 1/22/2021 1:08 PM
 Fully added obsidian armor, tools, and recipes.
 ===================
